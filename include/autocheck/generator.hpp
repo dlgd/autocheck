@@ -194,7 +194,7 @@ namespace autocheck {
   }
 
   template <typename CharGen>
-  string_generator<CharGen> string(const CharGen& chargen) {
+  string_generator<CharGen> string(const CharGen&) {
     return string_generator<CharGen>();
   }
 

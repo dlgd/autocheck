@@ -4,7 +4,7 @@
 #include <cassert>
 
 template <typename T>
-void unused(T& x) {}
+void unused(T&) {}
 
 namespace autocheck {
 
